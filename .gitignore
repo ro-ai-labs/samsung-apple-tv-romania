@@ -1,0 +1,22 @@
+# Private device sessions and generated application bytes must not be published.
+private-session/
+backups/
+logs/
+generated/
+__pycache__/
+*.pyc
+*.log
+*.zip
+*.wgt
+*.tpk
+*.jetpack
+main.js*
+main.ro-compat.js
+*.tv.sh
+backup-*.json
+apply-*.json
+rollback-*.json
+*.pem
+*.key
+.env
+.env.*
