@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://local.codex.invalid/apple-direct" version="0.1.0" viewmodes="maximized">
+    <tizen:application id="CdxArD4Q9x.Launcher" package="CdxArD4Q9x" required_version="4.0"/>
+    <name>Apple TV Direct</name>
+    <content src="index.html"/>
+    <tizen:profile name="tv"/>
+    <tizen:metadata key="http://samsung.com/tv/metadata/devel.api.version" value="4.0"/>
+    <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:content-security-policy>default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none';</tizen:content-security-policy>
+</widget>

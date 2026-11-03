@@ -2,6 +2,8 @@
 
 On 31 October 2026, the owner confirmed that an Apple TV subscription show played with picture and sound in the genuine native app. The Apple account remained Romanian and Smart Hub remained RO.
 
+**Follow-up, 3 November 2026:** the original Samsung entry later showed a termination/deletion prompt despite the native app still playing through direct launch. A separate Home launcher resolved access through the new tile, with an owner-confirmed restart/playback test. Read [the follow-up report](QN90C-HOME-LAUNCHER.md) before treating the original Home entry as reliable.
+
 ## Exact configuration
 
 | Component | Observed value |
@@ -45,7 +47,8 @@ The [companion README](../compat/romania-qn90c/README.txt) contains the exact ha
 - VOYO playback: confirmed earlier after restoring Romania. Focus Sat was later restored; SkyShowtime, HBO Max and Hayu were confirmed installed. These are not fresh playback tests for every service.
 - The compatibility insertion passed 23 offline checks. The portable builder produced the exact TV-tested patched bytes from the private original.
 - The portable command generator was tested offline. Its newly generated scripts have not themselves been run on a TV; the original TV deployment used the previously tested core write sequence.
-- Cold-boot persistence, long sessions, 4K/HDR, future app/firmware updates and another TV have not been validated.
+- At the original 31 October test, cold-boot persistence was untested. The [3 November follow-up](QN90C-HOME-LAUNCHER.md) records the original entry's failure and an owner-confirmed Home/restart/playback test through the new launcher. That single restart does not establish long-term persistence.
+- Long sessions, 4K/HDR, future app/firmware updates and another TV remain unvalidated.
 
 Use this case to decide whether further investigation is justified. It is not proof that the same app, root path or hook works on an older Samsung or another firmware. An unknown version must cause the supplied patch path to stop rather than weaken its checks.
 
